@@ -21,4 +21,5 @@ Copy code
 myMean(assignment2)
 # [1] 19.5
 
-I wrote a blog post explaining my debugging process for this assignment. You can check it out here: https://www.blogger.com/blog/post/edit/6412396645363116408/3374463383248962732
+I wrote a blog post explaining my debugging process for this assignment. You can check it out here:
+https://www.blogger.com/blog/post/edit/6412396645363116408/3374463383248962732
