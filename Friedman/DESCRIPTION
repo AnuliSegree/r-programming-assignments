@@ -1,0 +1,22 @@
+Package: Friedman
+Title: Tools for Simple Data Exploration and Visualization
+Version: 0.0.0.9000
+Authors@R: 
+    person("Anuli", "Segree", email = "anuli.segree@gmail.com", role = c("aut", "cre"))
+Description: 
+    Friedman is an R package designed to support simple data exploration,
+    cleaning, and visualization workflows for students and beginner analysts.
+    The package will provide functions for summarizing datasets, checking for
+    missing values, and producing clear plots for exploratory data analysis.
+Depends: 
+    R (>= 3.1.2)
+Imports: 
+    ggplot2,
+    dplyr
+License: CC0
+LazyData: true
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+URL: https://github.com/AnuliSegree/Friedman
+BugReports: https://github.com/AnuliSegree/Friedman/issues
