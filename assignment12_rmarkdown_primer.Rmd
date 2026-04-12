@@ -1,0 +1,50 @@
+---
+title: "My R Markdown Primer"
+author: "Anuli Segree"
+date: "2026-04-11"
+output: html_document
+---
+
+# Introduction
+
+R Markdown is a file format that allows me to combine regular writing, R code, and mathematical notation in a single document. It is useful because I can explain my ideas in words, run code in the same file, and then knit everything into a clean final report. This makes it easier to keep my analysis organized and reproducible.
+
+# Narrative Text
+
+One thing I like about R Markdown is that it blends explanation and analysis together. Instead of writing code in one place and results somewhere else, I can keep everything in the same document. This helps make my work easier to follow because the text explains what the code is doing, and the output appears directly underneath it.
+
+# LaTeX Math
+
+Here is an example of inline math: $\alpha + \beta = \gamma$
+
+Here is a displayed equation:
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$
+
+This equation shows the formula for the sample mean.
+
+# Code Chunk 1: Load a Dataset and View Summary
+
+```{r}
+library(ggplot2)
+data(mtcars)
+summary(mtcars)
+```
+
+# Code Chunk 2: Create a Plot
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(
+    title = "Car Weight vs. Miles Per Gallon",
+    x = "Weight",
+    y = "Miles Per Gallon"
+  )
+```
+
+# Reflection
+
+Using R Markdown felt more efficient than writing a plain report because I could include my explanation, code, and results in one file. I also liked that the final knitted document looked cleaner and more professional. One challenge was remembering the correct Markdown and code chunk syntax, but once I saw how it worked, it became much easier to use.
